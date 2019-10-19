@@ -29,8 +29,9 @@ This repository contains Apache Kafka Examples.
 
 - ###### [SpringBoot-Kafka-ElasticSearch](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootKafkaES) 
    ###### This example illustrates a simple SpringBoot implementation where a JSON is fed to Kafka Producer for a topic, and Consumer listens the same, aslo then forwards the input to ES Server.
-![image](https://user-images.githubusercontent.com/689226/67137145-2bef8880-f24e-11e9-85b3-f062989bbdbf.png) 
+![image](https://user-images.githubusercontent.com/689226/67137229-6f96c200-f24f-11e9-8fcf-a01308877503.png)
    ###### From ES Server:
-![image](https://user-images.githubusercontent.com/689226/67137152-4164b280-f24e-11e9-8f36-7367bb1d8a06.png)
+![image](https://user-images.githubusercontent.com/689226/67137241-8c32fa00-f24f-11e9-939b-db930a7d5af7.png)
+
 
 <hr>
