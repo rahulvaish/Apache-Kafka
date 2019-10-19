@@ -13,7 +13,8 @@ This repository contains Apache Kafka Examples.
 <hr>
 
 - ###### [Kafka Installation on Ubuntu](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) 
-   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to Kafka Installation on "Ubuntu".Also contains a few R&D scenerios.
+   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to Kafka Installation on "Ubuntu".Plus, a few R&D scenerios. To run Kafka on Docker refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD)
+   
 <hr>
  
 - ###### [Kafka Producer Consumer](https://github.com/rahulvaish/Apache-Kafka/tree/KafkaProducerConsumer) 
