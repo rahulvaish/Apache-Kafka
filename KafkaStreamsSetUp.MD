@@ -14,7 +14,7 @@
 <pre>
 [1] <b>Navigate:</b> cd /usr/local/kafka/kafka_2.12-2.3.0/config
 [2] <b>Create a Broker:</b> cp server.properties server-9092.properties
-[3] <b>Edit the Broker:</b>
+[3] <b>Edit the Broker[server-9092.properties] with below properties:</b>
     - sudo gedit server-9092.properties
     - broker.id=92
     - listeners=PLAINTEXT://:9092
