@@ -41,7 +41,7 @@ This repository contains Apache Kafka Examples.
 
 <hr>
 
-- ###### [KafkaStreams Producer Consumer](https://github.com/rahulvaish/Apache-Kafka/tree/KafkaStreamProducerConsumer) 
+- ###### [KafkaStreams-Producer-Consumer](https://github.com/rahulvaish/Apache-Kafka/tree/KafkaStreamProducerConsumer) 
    ###### Prerequisite: Kafka should be Up & Running. To setup Kafka Stream infrastructure, refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaStreamsSetUp.MD).
    ###### This example illustrates a simple implementation of Kakfa Stream API -  where data is fed into the Input Stream and its word count is computed. 
    
