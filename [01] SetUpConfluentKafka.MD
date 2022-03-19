@@ -26,3 +26,17 @@ confluent api-key use MT6YSP56J7UBL7XU --resource lkc-doo321
 ```
 <img width="1184" alt="image" src="https://user-images.githubusercontent.com/689226/159108162-fb969d83-e9bc-41ff-a66c-56a09073f004.png">
 
+##### STEP#4: Producer & Consumer
+
+Producer:
+```
+confluent kafka topic produce topicA --parse-key
+```
+Consumer:
+```
+confluent kafka topic consume --from-beginning topicA
+```
+<img width="1117" alt="image" src="https://user-images.githubusercontent.com/689226/159109112-a7426905-92e9-4fea-b861-59b6160bf667.png">
+
+
+```
