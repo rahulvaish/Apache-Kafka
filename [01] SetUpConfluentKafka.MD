@@ -36,7 +36,5 @@ Consumer:
 ```
 confluent kafka topic consume --from-beginning topicA
 ```
-<img width="1117" alt="image" src="https://user-images.githubusercontent.com/689226/159109112-a7426905-92e9-4fea-b861-59b6160bf667.png">
 
-
-```
+<img width="1354" alt="image" src="https://user-images.githubusercontent.com/689226/159109143-90be81d8-ffe2-4a64-8719-9f62208701b8.png">
