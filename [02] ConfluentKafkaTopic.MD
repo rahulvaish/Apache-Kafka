@@ -1,4 +1,4 @@
-### Confluent Kafka Basics
+### Confluent Kafka Topics & Partitions
 
 ##### Listing Topic:
 
