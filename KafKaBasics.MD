@@ -25,7 +25,15 @@
 
 ![image](https://user-images.githubusercontent.com/689226/159184849-0fb02300-d41e-49dd-8773-f8997696fae7.png)
 
-![image](https://user-images.githubusercontent.com/689226/159184853-c03205a8-1498-4ee9-86c3-f0ce965bcfdc.png)
+- A Topic has *n* partitionings, when Producer publishes data on the topic, the data goes and resides in one of the partition.
+
+- **Case1**: When you associate a Key along with Value -> The hash of the key is calculated and according to the result the the partition is chosen for data to reside.
+
+- **Case2**: When you do not associate a Key along with Value -> The data goes in Round Robin fashion amongst the various partitions. 
+```
+FunExperimentExample: Add multiple messages with key as "abc", let say the resultant # will point to Partition2.
+Add n data to a topic, and on search you will find all n data items will be landing on Partition2.
+```
 
 <hr>
 
