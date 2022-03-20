@@ -1,22 +1,6 @@
 ### Confluent Kafka Basics
 
-##### Topics & Partitioning
-
-- A Topic is a *path/platform* which is subscribed by Producer and Subscriber.
-- Producer publishes contents on the topic and Consumer fetches the same from it.
-- A Topic has *n* partitionings, when Producer publishes data on the topic, the data goes and resides in one of the partition.
-
-- **Case1**: When you associate a Key along with Value -> The hash of the key is calculated and according to the result the the partition is chosen for data to reside.
-
-- **Case2**: When you do not associate a Key along with Value -> The data goes in Round Robin fashion amongst the various partitions. 
-```
-FunExperimentExample: Add multiple messages with key as "abc", let say the resultant # will point to Partition2.
-Add n data to a topic, and on search you will find all n data items will be landing on Partition2.
-```
-- Everytime the data goes in a partition it is 'appended' after previous. The index is referred as *offset*.
-
-![image](https://user-images.githubusercontent.com/689226/159131764-a87f1179-aa7d-4b65-863d-067171eb1359.png)
-
+##### Listing Topic:
 
 ```
 confluent kafka topic list 
