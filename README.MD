@@ -3,18 +3,20 @@ This repository contains Apache Kafka Examples.
 
 ### Table of Contents
 - <a href='#kafka-installation'>Kafka Installation</a>
-  - <a href='#kafka-installation-and-infrastructure-setup'>Kafka Installation and Infrastructure SetUp</a>
+  - <a href='#kafka-installation-and-setup'>Kafka Installation and SetUp</a>
 - <a href='#kafka-implementations'>Kafka Implementations</a> 
   - <a href='#kafka-producer-consumer'>Kafka Producer Consumer</a> 
   - <a href='#springboot-kafka'>SpringBoot-Kafka</a> 
   - <a href='#springboot-kafka-elasticsearch'>SpringBoot-Kafka-ElasticSearch</a> 
-  - <a href='#KafkaStreams-producer-consumer'>KafkaStreams Producer Consumer</a> 
- 
+  - <a href='#KafkaStreams-producer-consumer'>KafkaStreams Producer Consumer</a>
+### Confluent Kafka
+- [Confluent Kafka Installation & SetUp](https://github.com/rahulvaish/Apache-Kafka/blob/confluentKafka/%5B01%5D%20SetUpConfluentKafka.MD)
+
 
 <hr>
 
-- ###### [Kafka Installation and Infrastructure SetUp](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) 
-   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to install and configure the Kafka infrastructure. This document also contains a few R&D scenerios. To run Kafka on Docker refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD). To setup Confluent Kafka refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/confluentKafka/%5B01%5D%20SetUpConfluentKafka.MD)
+- ###### [Kafka Installation and SetUp](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) 
+   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to install and configure the Kafka infrastructure. This document also contains a few R&D scenerios. To run Kafka on Docker refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD).
    
 <hr>
  
