@@ -4,6 +4,7 @@ This repository contains Apache Kafka Examples.
 ### Table of Contents
 - <a href='#kafka-installation'>Kafka Installation</a>
   - <a href='#kafka-installation-and-setup'>Kafka Installation and SetUp</a>
+  - [Kafka Basics](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafKaBasics.MD)
 - <a href='#kafka-implementations'>Kafka Implementations</a> 
   - <a href='#kafka-producer-consumer'>Kafka Producer Consumer</a> 
   - <a href='#springboot-kafka'>SpringBoot-Kafka</a> 
