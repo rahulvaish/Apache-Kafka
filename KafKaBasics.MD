@@ -1,0 +1,34 @@
+![image](https://user-images.githubusercontent.com/689226/159184144-29d07b8c-41dd-4ec7-9488-1ef6c0006c9a.png)
+<hr>
+
+![image](https://user-images.githubusercontent.com/689226/159184196-4fcff60b-12d5-497e-9158-b922af3e864f.png)
+*Example:*\
+<img width="895" alt="image" src="https://user-images.githubusercontent.com/689226/159185389-b4becb3b-2dfb-448b-8e15-1c36811e4c72.png">
+
+<hr>
+
+### 3 Brokers | 2 Topics | Topic1 -> 3 Partitions | Topic2 -> 2 Partitions | ReplicationFactor = 2
+
+![image](https://user-images.githubusercontent.com/689226/159184416-da090a5a-f13c-4a61-a7aa-b64e711e0265.png)
+
+![image](https://user-images.githubusercontent.com/689226/159184567-420b3854-2a71-4077-9b06-0907cfc7e6eb.png)
+
+![image](https://user-images.githubusercontent.com/689226/159184819-fc9df8bb-b927-4815-a612-5b0b3c28f903.png)
+
+*Example:*\
+<img width="1010" alt="image" src="https://user-images.githubusercontent.com/689226/159184957-8078576b-ab24-4022-b56e-ba0e421a47ec.png">
+
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/689226/159184843-7b96349a-a8dd-41f3-a442-922d8ec9c620.png)
+
+![image](https://user-images.githubusercontent.com/689226/159184849-0fb02300-d41e-49dd-8773-f8997696fae7.png)
+
+![image](https://user-images.githubusercontent.com/689226/159184853-c03205a8-1498-4ee9-86c3-f0ce965bcfdc.png)
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/689226/159184869-2d70a9d0-e474-428c-98b6-4a1a7b0e2e64.png)
+
+![image](https://user-images.githubusercontent.com/689226/159184873-b2a09ce6-2b38-41a6-8f55-d58f00146f45.png)
