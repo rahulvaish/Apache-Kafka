@@ -1,7 +1,7 @@
 ### Confluent Kafka Schema Registry
 
-
-<img width="1002" alt="image" src="https://user-images.githubusercontent.com/689226/159186619-3518b1dc-77ba-4dfa-95f2-62471d4945de.png">
+##### How Data flows with Kafka:
+![image](https://user-images.githubusercontent.com/689226/159189641-2cc024b0-1d36-4034-b0e4-bed0298167f4.png)
 
 ##### What if the Producer sends bad data or fields gets renamed  - The consumer breaks ! To solve this porblem we need a schems and make use of Schema Registry. SR is a seperate component and Producer/Consumer needs to talk to it. SR should be able to identify the bad data. 
 
@@ -38,7 +38,9 @@
 <img width="1252" alt="image" src="https://user-images.githubusercontent.com/689226/159188180-25764a95-6ed9-400e-9146-9a2ace4e10ae.png">
 
 #### STEP#4:  Create API Key on Schema Registry
-<img width="1356" alt="image" src="https://user-images.githubusercontent.com/689226/159188990-3162dbcc-18bb-4ff4-b5ab-b0ed19358127.png">
+
+<img width="1238" alt="image" src="https://user-images.githubusercontent.com/689226/159189723-94840998-735f-4341-a873-fb47bfca7879.png">
+
 
 #### STEP#5:  Check Data on topic
 ```
