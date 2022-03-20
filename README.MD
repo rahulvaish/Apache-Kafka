@@ -14,7 +14,7 @@ This repository contains Apache Kafka Examples.
 <hr>
 
 - ###### [Kafka Installation and Infrastructure SetUp](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) 
-   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to install and configure the Kafka infrastructure. This document also contains a few R&D scenerios. To run Kafka on Docker refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD)
+   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to install and configure the Kafka infrastructure. This document also contains a few R&D scenerios. To run Kafka on Docker refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD). To setup Confluent Kafka refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/confluentKafka/%5B01%5D%20SetUpConfluentKafka.MD)
    
 <hr>
  
