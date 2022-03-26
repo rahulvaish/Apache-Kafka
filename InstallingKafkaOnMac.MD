@@ -1,4 +1,4 @@
-## Practical with Kafka
+## Kafka SetUp on Mac
 
 ##### STEP#0: Get Java8.
 ##### STEP#1: Install Kafka:
