@@ -3,11 +3,12 @@ This repository contains Apache Kafka Examples.
 
 ### Table of Contents
 - <a href='#kafka-installation'>Kafka Installation</a>
-  - <a href='#kafka-installation-and-setup-on-ubuntu'>Kafka Installation and SetUp on Ubuntu</a>
+  - [Kafka Installation on Ubuntu](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD)
+  - [Kafka Installation on Docker](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD)
   - [Kafka Installation on Mac](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnMac.MD)
-  - [Kafka Basics](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafKaBasics.MD)
+  - [Kafka Basic Concepts](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafKaBasics.MD)
 - <a href='#kafka-implementations'>Kafka Implementations</a> 
-  - <a href='#kafka-producer-consumer'>Kafka Producer Consumer</a> 
+  - <a href='#Java-kafka-producer-consumer'>Java Kafka Producer Consumer</a> 
   - <a href='#springboot-kafka'>SpringBoot-Kafka</a> 
   - <a href='#springboot-kafka-elasticsearch'>SpringBoot-Kafka-ElasticSearch</a> 
   - <a href='#KafkaStreams-producer-consumer'>KafkaStreams Producer Consumer</a>
@@ -18,12 +19,8 @@ This repository contains Apache Kafka Examples.
 
 <hr>
 
-- ###### [Kafka Installation and SetUp on Ubuntu](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) 
-   ###### This [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD) is a step by step guide to install and configure the Kafka infrastructure. This document also contains a few R&D scenerios. To run Kafka on Docker refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafkaOnDocker.MD).
-   
-<hr>
  
-- ###### [Kafka Producer Consumer](https://github.com/rahulvaish/Apache-Kafka/tree/KafkaProducerConsumer) 
+- ###### [Java Kafka Producer Consumer](https://github.com/rahulvaish/Apache-Kafka/tree/KafkaProducerConsumer) 
    ###### Prerequisite: Kafka should be Up & Running. To setup Kafka infrastructure, refer this [document](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD).
    ###### This example illustrates a simple implementation of Kafka mechanics in Java, where Kafka Producer is producing Timestamp on a topic, and Consumer consuming the same.
 
