@@ -16,6 +16,7 @@ public class Producer {
 
     public void sendMessage(String topic, String message) {
         logger.info(String.format("#### -> Producing message -> %s", message));
-        this.kafkaTemplate.send(topic, message);
+        //topic//key//value
+        this.kafkaTemplate.send(topic, String.valueOf(message.length()),message);
     }
 }
