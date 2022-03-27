@@ -21,9 +21,10 @@ kafka-server-start /opt/homebrew/etc/kafka/server.properties
 ```
 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic foobar
 ```
-##### STEP#5: List Kafka Topic:
+##### STEP#5: List | Delete Kafka Topic:
 ```
 kafka-topics --bootstrap-server localhost:9092 --list
+kafka-topics --bootstrap-server localhost:9092 --delete --topic countsTopic  
 ```
 ##### STEP#6: Create Kafka Producer:
 ```
