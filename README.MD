@@ -24,9 +24,13 @@ This repository contains Apache Kafka Examples.
 
 - ###### [SpringBoot-Kafka-Producer](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootKafkaProducer) 
    ###### This example illustrates a simple SpringBoot Rest API producing data on Kafka topic.
-   
-<hr>
+   <img width="662" alt="image" src="https://user-images.githubusercontent.com/689226/160305058-88d10f0c-25a8-43b3-a29d-b04ac68e9b94.png">
+   <img width="1383" alt="image" src="https://user-images.githubusercontent.com/689226/160305090-9cd52b4a-b501-4962-8391-ce0473df01da.png">
+   <img width="204" alt="image" src="https://user-images.githubusercontent.com/689226/160305114-427d7b0d-5c21-4d9b-91cd-c42199821818.png">
 
+<hr>
 
 - ###### [SpringBoot-Kafka-Stream-Listener](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootStreamListener) 
    ###### This example illustrates a simple SpringBoot App Listening a Kafka topic.
+   <img width="575" alt="image" src="https://user-images.githubusercontent.com/689226/160305169-4b4fabb0-cfa2-45fd-ad14-fbc46909cdd0.png">
+
