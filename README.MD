@@ -11,6 +11,7 @@ This repository contains Apache Kafka Examples.
 - <a href='#kafka-implementations'>Kafka Implementations</a> 
   - <a href='#Java-kafka-producer-consumer'>Java-Kafka-Producer-Consumer</a> 
   - <a href='#springboot-kafka-producer'>SpringBoot-Kafka-Producer</a> 
+  - <a href='#springboot-kafka-producer-object'>SpringBoot-Kafka-Producer-Object</a> 
   - <a href='#springboot-kafka-stream-listener'>SpringBoot-Kafka-Stream-Listener</a> 
 
 
@@ -23,10 +24,19 @@ This repository contains Apache Kafka Examples.
 <hr>
 
 - ###### [SpringBoot-Kafka-Producer](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootKafkaProducer) 
-   ###### This example illustrates a simple SpringBoot Rest API producing data on Kafka topic.
+   ###### This example illustrates a simple SpringBoot project producing data (string) on Kafka topic.
    <img width="662" alt="image" src="https://user-images.githubusercontent.com/689226/160305058-88d10f0c-25a8-43b3-a29d-b04ac68e9b94.png">
    <img width="1383" alt="image" src="https://user-images.githubusercontent.com/689226/160305090-9cd52b4a-b501-4962-8391-ce0473df01da.png">
-   <img width="204" alt="image" src="https://user-images.githubusercontent.com/689226/160305114-427d7b0d-5c21-4d9b-91cd-c42199821818.png">
+   <img width="980" alt="image" src="https://user-images.githubusercontent.com/689226/160310221-4a2450e2-8fdb-4df6-b14f-67e2c99bb32a.png">
+
+<hr>
+
+- ###### [SpringBoot-Kafka-Producer-Object](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootKafkaProducerObj) 
+   ###### This example illustrates a simple SpringBoot project producing data (object) on Kafka topic. 
+   <img width="615" alt="image" src="https://user-images.githubusercontent.com/689226/160309874-6e226144-cc33-456d-8018-39a4f509be64.png">
+   <img width="1372" alt="image" src="https://user-images.githubusercontent.com/689226/160309998-0ed17369-22eb-40a2-9c22-d0df0c5e5039.png">
+   <img width="1346" alt="image" src="https://user-images.githubusercontent.com/689226/160310083-0658f371-60a2-4159-809b-de2651e95f9d.png">
+
 
 <hr>
 
