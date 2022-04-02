@@ -1,5 +1,5 @@
-![image](https://user-images.githubusercontent.com/689226/159184144-29d07b8c-41dd-4ec7-9488-1ef6c0006c9a.png)
-<hr>
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/689226/161364491-bf3d6376-ac81-4bd5-b101-5ea91d5b0400.png">
+A Kafka cluster is a distributed architecture - However, it does not follows master - slave architecture. Instesd a Kafka cluster is managed by zookeeper. 
 
 ![image](https://user-images.githubusercontent.com/689226/159184196-4fcff60b-12d5-497e-9158-b922af3e864f.png)
 *Example:*\
@@ -15,7 +15,7 @@
 
 ![image](https://user-images.githubusercontent.com/689226/159184819-fc9df8bb-b927-4815-a612-5b0b3c28f903.png)
 
-*Example:*\
+*Example of 4 Brokers Cluster [Linux Doc](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD):*
 <img width="1010" alt="image" src="https://user-images.githubusercontent.com/689226/159184957-8078576b-ab24-4022-b56e-ba0e421a47ec.png">
 
 
