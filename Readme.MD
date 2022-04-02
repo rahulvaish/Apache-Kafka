@@ -3,7 +3,7 @@
 
 - Only Topic and Message Value are mandatory parameters of Producer Record object
 - Key:If you provide key, the hash of the key is calculated and according to the result the the partition is chosen for data to reside.When you don't provide the key the data goes in Round Robin fashion amongst the various partitions
-- Timestamp: Deafault timestamp is 0 whihc is create time.
+- Timestamp: For create time (time when msg is produced) value is 0. For Log append time (time when message is received) the value is 1.
 - Partition: You can specify manually the partion you want to send data to (not optimal approach)
 - Serializer Serializes the Key & Message Value
 - Partitioner: Kafka Default partitioner works by checking the 'Partition' value of Producer Record.
