@@ -9,7 +9,8 @@ This repository contains Apache Kafka Examples.
   - [Confluent Kafka Installation on Mac](https://github.com/rahulvaish/Apache-Kafka/blob/confluentKafka/%5B01%5D%20SetUpConfluentKafka.MD)
   - [Kafka Basic Concepts](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/KafKaBasics.MD)
 - <a href='#kafka-implementations'>Kafka Implementations</a> 
-  - <a href='#Java-kafka-producer-consumer'>Java-Kafka-Producer-Consumer</a> 
+  - <a href='#java-kafka-producer-consumer'>Java-Kafka-Producer-Consumer</a> 
+  - <a href='#java-kafka-producer-multithreading'>Java-Kafka-Producer-Multithreading</a> 
   - <a href='#springboot-kafka-producer'>SpringBoot-Kafka-Producer</a> 
   - <a href='#springboot-kafka-producer-object'>SpringBoot-Kafka-Producer-Object</a> 
   - <a href='#springboot-kafka-stream-listener'>SpringBoot-Kafka-Stream-Listener</a> 
@@ -23,7 +24,15 @@ This repository contains Apache Kafka Examples.
 
 <hr>
 
-- ###### [SpringBoot-Kafka-Producer](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootKafkaProducer) 
+- ###### [Java-Kafka-Producer-Multithreading](https://github.com/rahulvaish/Apache-Kafka/tree/KafkaProducerMultiThreading)
+   ###### This example illustrates creating single Producer and & multi threads producing data on single topic
+   ![image](https://user-images.githubusercontent.com/689226/161403837-ddafaff6-baa2-419a-a220-a1c8ab6fddc4.png)
+
+   <img width="1144" alt="image" src="https://user-images.githubusercontent.com/689226/161403716-5897eded-0235-4a32-97ef-53cfe5470526.png">
+
+<hr>
+
+- ###### [Springboot-Kafka-Producer](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootKafkaProducer) 
    ###### This example illustrates a simple SpringBoot project producing data (string) on Kafka topic.
    <img width="662" alt="image" src="https://user-images.githubusercontent.com/689226/160305058-88d10f0c-25a8-43b3-a29d-b04ac68e9b94.png">
    <img width="1383" alt="image" src="https://user-images.githubusercontent.com/689226/160305090-9cd52b4a-b501-4962-8391-ce0473df01da.png">
