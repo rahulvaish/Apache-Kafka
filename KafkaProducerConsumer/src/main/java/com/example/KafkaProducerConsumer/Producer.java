@@ -23,7 +23,7 @@ public class Producer {
 
 			System.out.println("PUBLISHING STARTED");
 	        for(int i=0;i< 10;i++){
-	            producer.send(new ProducerRecord(topic, i, "MSG#"+i));
+	            producer.send(new ProducerRecord<>(topic, i, "MSG#"+i));
 	        }
 			producer.close();
 			System.out.println("PUBLISHING ENDED");
