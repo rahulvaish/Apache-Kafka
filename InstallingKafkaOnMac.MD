@@ -21,7 +21,12 @@ kafka-server-start /opt/homebrew/etc/kafka/server.properties
 ```
 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic foobar
 ```
-##### STEP#5: List | Delete Kafka Topic:
+##### View the partitions:
+<img width="1243" alt="image" src="https://user-images.githubusercontent.com/689226/161364065-3316090b-9ceb-4665-a686-c3b080db6bed.png">
+<img width="1110" alt="image" src="https://user-images.githubusercontent.com/689226/161364100-026ef156-d013-4123-aff1-cc72a3b5473c.png">
+
+
+##### List | Delete Kafka Topic:
 ```
 kafka-topics --bootstrap-server localhost:9092 --list
 kafka-topics --bootstrap-server localhost:9092 --delete --topic countsTopic  
