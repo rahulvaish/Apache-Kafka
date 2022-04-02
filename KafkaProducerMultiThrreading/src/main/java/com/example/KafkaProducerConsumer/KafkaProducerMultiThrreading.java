@@ -9,10 +9,10 @@ import java.util.Map;
 public class KafkaProducerMultiThrreading {
 
 	public static void main(String[] args) throws InterruptedException {
-		    
+		
 		String topic = "foobar";
         String brokers = "localhost:9092";
-	    String IntegerSerializer = "org.apache.kafka.common.serialization.IntegerSerializer";
+        String IntegerSerializer = "org.apache.kafka.common.serialization.IntegerSerializer";
         String StringSerializer = "org.apache.kafka.common.serialization.StringSerializer";
 
         Map<String, Object> config = new HashMap<String, Object>();
@@ -30,8 +30,7 @@ public class KafkaProducerMultiThrreading {
 		try
         {
             t1.join();
-        }
-        catch(Exception ex)
+        }catch(Exception ex)
         {
             System.out.println("Exception has been caught" + ex);
         }
@@ -40,13 +39,11 @@ public class KafkaProducerMultiThrreading {
         try
         {
             t2.join();
-        }
-  
-        catch(Exception ex)
+        } catch(Exception ex)
         {
             System.out.println("Exception has been caught" + ex);
         }
-		finally {
+        finally {
 			producer.close();
 		}
 		
