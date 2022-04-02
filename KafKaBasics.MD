@@ -1,9 +1,20 @@
+# Kafka Cluster:
 <img width="564" alt="image" src="https://user-images.githubusercontent.com/689226/161364491-bf3d6376-ac81-4bd5-b101-5ea91d5b0400.png">
 A Kafka cluster is a distributed architecture - However, it does not follows master - slave architecture. Instesd a Kafka cluster is managed by zookeeper. 
 
 ![image](https://user-images.githubusercontent.com/689226/159184196-4fcff60b-12d5-497e-9158-b922af3e864f.png)
-*Example:*\
+*Example of 4 Brokers Cluster [Linux Doc](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD):*\
 <img width="895" alt="image" src="https://user-images.githubusercontent.com/689226/159185389-b4becb3b-2dfb-448b-8e15-1c36811e4c72.png">
+
+# Controller:
+- The fist broker of the cluster becomes the controller.
+- It is just a normal broker + aditional responsibilities.
+- There is only one of controller in the cluster.
+- All brokers keep an eye on controller broker in the zookeeper, when it dies, any other broker is chosen to become next controller.
+  (This ensures there is always one controller)
+- Zookeeper maintains the list of active Brokers. 
+- Controller montitors the list of active Brokers. 
+- Controller is also responsible to assign the task b/w brokers.
 
 <hr>
 
@@ -15,7 +26,7 @@ A Kafka cluster is a distributed architecture - However, it does not follows mas
 
 ![image](https://user-images.githubusercontent.com/689226/159184819-fc9df8bb-b927-4815-a612-5b0b3c28f903.png)
 
-*Example of 4 Brokers Cluster [Linux Doc](https://github.com/rahulvaish/Apache-Kafka/blob/KafkaEnvironment/InstallingKafkaOnUbuntu.MD):*
+*Example:*
 <img width="1010" alt="image" src="https://user-images.githubusercontent.com/689226/159184957-8078576b-ab24-4022-b56e-ba0e421a47ec.png">
 
 
