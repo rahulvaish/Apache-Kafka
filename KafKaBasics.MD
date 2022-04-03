@@ -38,7 +38,15 @@ A Kafka cluster is a distributed architecture - However, it does not follows mas
 *Example:*
 <img width="1010" alt="image" src="https://user-images.githubusercontent.com/689226/159184957-8078576b-ab24-4022-b56e-ba0e421a47ec.png">
 
- 
+- In the diagram above we saw Leaders and Followers. The job of the follower partitions is to copy messages from Leader and keep themselves as up-to-date. This happens as infinite loop between followers and leaders (below). When the leader fails/dies, any one follower replaces it (so keeping in sync with data is important).
+![image](https://user-images.githubusercontent.com/689226/161412599-97e3a97f-22c9-4823-a357-d53d4f427e80.png)
+
+- Leaders aslo maintains the list of underlying followers (as ISR List - in sync replicas), and persists in zookeeper. 
+- The ISR List is dynamic. Below logic explains the dynamics:
+<img width="1045" alt="image" src="https://user-images.githubusercontent.com/689226/161412634-043fe9ae-b913-4606-9609-2ba1a20e38fa.png">
+*'Not to Far' is defined as time takes between follower asking for data + receiving + persisting + re-asking. Default value of NTF < 10 seconds.*
+
+
 <hr>
 
 # Producer
@@ -55,6 +63,7 @@ Add n data to a topic, and on search you will find all n data items will be land
 ### Internal working of Producer
 
 <img width="929" alt="image" src="https://user-images.githubusercontent.com/689226/161400420-0232c90e-032c-4551-b36d-687d14bca658.png">
+
 - Only Topic and Message Value are mandatory parameters of Producer Record object
 - Key:If you provide key, the hash of the key is calculated and according to the result the the partition is chosen for data to reside.When you don't provide the key the data goes in Round Robin fashion amongst the various partitions
 - Timestamp: For create time (time when msg is produced) value is 0. For Log append time (time when message is received) the value is 1.
@@ -63,6 +72,7 @@ Add n data to a topic, and on search you will find all n data items will be land
 - Partitioner: Kafka Default partitioner works by checking the 'Partition' value of Producer Record.
 - Buffers offer async data transfer + network optimisation
 
+- 
 
 <hr>
 
