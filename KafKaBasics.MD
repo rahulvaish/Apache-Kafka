@@ -41,10 +41,13 @@ A Kafka cluster is a distributed architecture - However, it does not follows mas
 - In the diagram above we saw Leaders and Followers. The job of the follower partitions is to copy messages from Leader and keep themselves as up-to-date. This happens as infinite loop between followers and leaders (below). When the leader fails/dies, any one follower replaces it (so keeping in sync with data is important).
 ![image](https://user-images.githubusercontent.com/689226/161412599-97e3a97f-22c9-4823-a357-d53d4f427e80.png)
 
-- Leaders aslo maintains the list of underlying followers (as ISR List - in sync replicas), and persists in zookeeper. 
+- Leaders aslo maintains the list of underlying followers (as ISR List - In Sync Replicas), and persists in zookeeper. 
 - The ISR List is dynamic. Below logic explains the dynamics:
 <img width="1045" alt="image" src="https://user-images.githubusercontent.com/689226/161412634-043fe9ae-b913-4606-9609-2ba1a20e38fa.png">
-*'Not to Far' is defined as time takes between follower asking for data + receiving + persisting + re-asking. Default value of NTF < 10 seconds.*
+'Not to Far' is defined as time taken between follower asking for data + receiving + persisting + re-asking. Default value of NTF < 10 seconds.This time is configurable.
+- There could be a situation where none of the followers are in sync (ISR List is empty) and what if the Leader dies. To handle this situation there is a concept of 'Committed & Uncommitted' messages. When the Leader receives a message from Producer, and after it gets copied to all followers, it is considered as 'committed'. At any time let assume none of the followers could gets themself updated and ISR List gets empty and Leader dies.   In that situation all the followers will have last committed data, and as their leader has died, there was no success acknowledgement sent back to I/O threads of producer, and for those uncommitted messages Producer will retry sending the uncommitted messages. And by the time retry works and any of the follower takes up the charge of leader and gets the rest of messages from Producer & its fellow members (partitions) are now its follower, and the process continues.
+
+- ISR is List could be empty when all the followers are dead, then there is another concept called 'Minimum ISR' . This configuration helps to keep a mininum number of ISR/followers, because, let's assume there are no followers and Leader keeps getting data, commits it within itself and subsequently keeps sending success acknowledgement to Producer. What if the Leader dies ? The data is lost as it had no followers.
 
 
 <hr>
