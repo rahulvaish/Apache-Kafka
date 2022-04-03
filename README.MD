@@ -14,6 +14,7 @@ This repository contains Apache Kafka Examples.
   - <a href='#springboot-kafka-producer'>SpringBoot-Kafka-Producer</a> 
   - <a href='#springboot-kafka-producer-object'>SpringBoot-Kafka-Producer-Object</a> 
   - <a href='#springboot-kafka-stream-listener'>SpringBoot-Kafka-Stream-Listener</a> 
+  - <a href='#java-kafka-stream'>Java-Kafka-Stream</a> 
 
 
 <hr>
@@ -52,4 +53,18 @@ This repository contains Apache Kafka Examples.
 - ###### [SpringBoot-Kafka-Stream-Listener](https://github.com/rahulvaish/Apache-Kafka/tree/SpringBootStreamListener) 
    ###### This example illustrates a simple SpringBoot App Listening a Kafka topic.
    <img width="575" alt="image" src="https://user-images.githubusercontent.com/689226/160305169-4b4fabb0-cfa2-45fd-ad14-fbc46909cdd0.png">
+
+<hr>
+
+- ###### [Java-Kafka-Stream](https://github.com/rahulvaish/Apache-Kafka/tree/JavaKafkaStream) 
+   ###### This example illustrates a simple Java Stream App that reads data from a topic, processes it and sends the output to another topic (using Stream APIs)
+   <img width="1520" alt="image" src="https://user-images.githubusercontent.com/689226/161452322-914f6d59-5342-47b0-b19f-a5a5083dc431.png">
+   <img width="1516" alt="image" src="https://user-images.githubusercontent.com/689226/161452294-26414350-db76-4320-84ba-37398395d62e.png">
+   We produce data on topicA. The App reads data from topicA. It data contains "a", it sends the data to topicB
+   
+   <img width="1038" alt="image" src="https://user-images.githubusercontent.com/689226/161452384-154d5048-6bdf-4e57-ad7e-3604a67444c3.png">
+   <img width="1083" alt="image" src="https://user-images.githubusercontent.com/689226/161452398-4082be8a-1ffb-4158-8d5e-5b2959524c74.png">
+
+   
+
 
