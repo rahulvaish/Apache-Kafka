@@ -75,10 +75,10 @@ Add n data to a topic, and on search you will find all n data items will be land
 - Partitioner: Kafka Default partitioner works by checking the 'Partition' value of Producer Record.
 - Buffers offer async data transfer + network optimisation
 
-- 
 
 <hr>
 
+# Consumers
 
 ![image](https://user-images.githubusercontent.com/689226/159184869-2d70a9d0-e474-428c-98b6-4a1a7b0e2e64.png)
 
